@@ -2,172 +2,234 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Parmeshwar - Portfolio</title>
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quantum Computer Academy | Admissions Open 2026</title>
+  <meta name="description" content="Quantum Computer Academy provides practical computer education in Chhapra with ADCA, DCA, DTP, Tally, ADIT, and communication programs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- animated background shapes -->
-  <div class="bg-anim">
-    <span class="orb orb-1"></span>
-    <span class="orb orb-2"></span>
-    <span class="orb orb-3"></span>
-  </div>
+  <header class="top-strip">
+    <div class="container strip-row">
+      <p>A Unit of IITM Pvt. Ltd.</p>
+      <p>ISO 9001:2015 Certified Institution</p>
+    </div>
+    <p class="trust-line">Government-recognized and trusted computer training institute</p>
+  </header>
 
-  <header class="site-header">
-  <div class="container header-inner">
-    <div class="brand" id="brand">
-      <img src="images/profile.jpg" alt="Parmeshwar Kumar" class="logo" id="logo">
-      <div>
-        <h1 id="brand-name">armeshwar Kumar</h1>
-        <p id="brand-role">Web Developer · Designer · Video Editor</p>
+  <nav class="navbar">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home" aria-label="Quantum Computer Academy home">
+        <span class="logo-mark">Q</span>
+        <span>
+          <strong>QUANTUM</strong>
+          <small>COMPUTER ACADEMY</small>
+        </span>
+      </a>
+
+      <button id="menuToggle" class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+
+      <div id="navMenu" class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-small">Admissions Open</a>
       </div>
     </div>
-    <button id="nav-toggle" class="btn small icon" aria-label="Toggle menu">☰</button>
+  </nav>
 
-    <nav id="main-nav" class="main-nav">
-      <a href="#home" class="nav-link">Home</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </nav>
-  </div>
-</header>
-
-
-
-  <main class="container main-content">
-    <section id="hero" class="hero section reveal">
-      <div class="hero-left">
-        <div class="eyebrow">Hello — I’m</div>
-        <h2 id="hero-title" class="glow">Parmeshwar Kumar</h2>
-        <p id="hero-sub" class="muted">
-          A developer & designer who turns ideas into digital products. I build web apps, design interfaces, and edit video — mixing logic and creativity.
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="tagline">New Batch Started • Limited Seats Available</p>
+        <h1>Build Your Digital Career with <span>Quantum Computer Academy</span></h1>
+        <p>
+          Master practical computer skills with expert mentors, job-focused modules, and daily lab practice.
+          We help students and professionals become confident, employable, and future-ready.
         </p>
-        <div class="hero-cta">
-          <a id="cta-portfolio" href="#projects" class="btn primary">View Projects</a>
-          <a id="cta-contact" href="#contact" class="btn ghost">Contact</a>
+        <div class="hero-actions">
+          <a class="btn" href="#programs">Explore Programs</a>
+          <a class="btn btn-outline" href="#contact">Book Free Counseling</a>
         </div>
 
-        <div class="hero-stats">
-          <div class="stat">
-            <strong>5+</strong>
-            <span>Projects</span>
-          </div>
-          <div class="stat">
-            <strong>3</strong>
-            <span>Skills Focus</span>
-          </div>
-          <div class="stat">
-            <strong>1</strong>
-            <span>Quiz Site (Preet Quiz Center)</span>
-          </div>
+        <div class="stats">
+          <article><strong>12 Months</strong><span>ADCA Master Program</span></article>
+          <article><strong>100% Practical</strong><span>Lab-Based Sessions</span></article>
+          <article><strong>Career Support</strong><span>Resume + Interview Help</span></article>
         </div>
       </div>
 
-      <div class="hero-right card glass reveal-zoom">
-        <div class="profile-wrap">
-          <img src="images/profile.jpg" alt="Parmeshwar" class="profile-large">
-          <div class="profile-badge">Web Dev · Designer</div>
-        </div>
-        <div class="mini-about muted">
-          <p><strong>Quick:</strong> I enjoy learning new tech and building clean, responsive UI with smooth animations.</p>
-        </div>
-        <div class="social-row">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://www.instagram.com/_preet2008_?igsh=Nm5taWd4NXA3aGlq" target="_blank" class="pill">Instagram</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="mailto:parmeshwarkumar4044@gmail.com" class="pill">Email</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://www.facebook.com/share/1JjBHoaw89/" target="_blank" class="pill">Facebook</a>
-        </div>
-      </div>
+      <aside class="hero-box" aria-label="Popular modules">
+        <h2>Popular Learning Modules</h2>
+        <ul>
+          <li><span>01</span> Computer Fundamentals & Operating Systems</li>
+          <li><span>02</span> MS Office, Internet, and Database Essentials</li>
+          <li><span>03</span> Accounting Software (Tally / CFA)</li>
+          <li><span>04</span> Desktop Publishing and Design Basics</li>
+          <li><span>05</span> AI Tools for Productivity</li>
+        </ul>
+        <p class="course-badges">ADCA • DCA • DTP • TALLY • ADIT • LANGUAGE</p>
+      </aside>
     </section>
 
-    <section id="about" class="card section reveal">
-      <h3 data-i18n="about_title">About</h3>
-      <p id="about-text">
-        Hi, I’m Parmeshwar Kumar — a developer and designer who loves turning ideas into real digital experiences. I’m passionate about web development, coding, and creative design. I enjoy learning new technologies and combining logic with creativity to build modern, user-friendly projects.
+    <section id="about" class="section container">
+      <h2>About Quantum Computer Academy</h2>
+      <p>
+        Quantum Computer Academy delivers structured and practical computer education in Chhapra.
+        Our training model combines concept clarity, real assignments, and continuous mentor support to
+        prepare learners for office jobs, freelancing, and higher IT learning paths.
       </p>
     </section>
 
-    <section id="skills" class="card section reveal">
-      <h3 data-i18n="skills_title">Skills</h3>
-      <ul id="skills-list" class="skills-grid">
-        <li>HTML</li>
-        <li>CSS (SASS)</li>
-        <li>JavaScript (ES6+)</li>
-        <li>React (basic)</li>
-        <li>PHP / MySQL</li>
-        <li>Node.js (starter)</li>
-        <li>Figma / UI Design</li>
-        <li>Photoshop</li>
-        <li>Premiere Pro (video)</li>
-      </ul>
+    <section id="programs" class="section section-alt">
+      <div class="container">
+        <h2>Programs We Offer</h2>
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>ADCA</h3>
+            <p>Advanced Diploma in Computer Applications with complete beginner-to-advanced progression.</p>
+          </article>
+          <article class="card">
+            <h3>DCA</h3>
+            <p>Core computer literacy, internet usage, office tools, and productivity fundamentals.</p>
+          </article>
+          <article class="card">
+            <h3>DTP</h3>
+            <p>Design and publishing tools for flyers, brochures, business cards, and print-ready projects.</p>
+          </article>
+          <article class="card">
+            <h3>Tally / CFA</h3>
+            <p>Accounting software training with GST, billing, reporting, and practical workflows.</p>
+          </article>
+          <article class="card">
+            <h3>ADIT</h3>
+            <p>Advanced digital and IT training for modern office and online work environments.</p>
+          </article>
+          <article class="card">
+            <h3>Language & Communication</h3>
+            <p>Spoken English and communication skills to improve confidence and interview performance.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="projects" class="card section reveal">
-      <h3 data-i18n="projects_title">Projects</h3>
-      <div class="projects-grid">
-        <article class="project-card hover-glow">
-          <div class="project-head">
-            <h4>Preet Quiz Center</h4>
-            <span class="tag">Full-stack-ish</span>
-          </div>
-          <p>Responsive quiz website with topic + difficulty selection, timer, scoreboard, language toggle and admin panel. My first major project.</p>
-          <div class="project-links">
-            <a href="#" class="btn small primary">Live</a>
-            <a href="#" class="btn small ghost">Code</a>
-          </div>
+    <section id="highlights" class="section container">
+      <h2>Why Students Choose Us</h2>
+      <div class="grid cards-4">
+        <article class="card card-soft">
+          <h3>Experienced Faculty</h3>
+          <p>Trainers with practical industry knowledge and student-friendly teaching methods.</p>
         </article>
-
-        <article class="project-card hover-glow">
-          <div class="project-head">
-            <h4>Portfolio Templates</h4>
-            <span class="tag">UI / Templates</span>
-          </div>
-          <p>Small responsive templates to practice layout, animations and accessibility.</p>
-          <div class="project-links">
-            <a href="#" class="btn small primary">Preview</a>
-            <a href="#" class="btn small ghost">Code</a>
-          </div>
+        <article class="card card-soft">
+          <h3>Flexible Batch Timings</h3>
+          <p>Morning and evening schedules for school students, college learners, and job holders.</p>
         </article>
-
-        <article class="project-card hover-glow">
-          <div class="project-head">
-            <h4>Video Editing Demos</h4>
-            <span class="tag">Motion</span>
-          </div>
-          <p>Short edits for social media — color grading & quick motion cuts.</p>
-          <div class="project-links">
-            <a href="#" class="btn small primary">Preview</a>
-          </div>
+        <article class="card card-soft">
+          <h3>Modern Computer Lab</h3>
+          <p>Daily hands-on practice, lab tasks, and guided assessments for skill mastery.</p>
+        </article>
+        <article class="card card-soft">
+          <h3>Affordable Fees</h3>
+          <p>High-value professional training at a fee structure suitable for local learners.</p>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="card section reveal">
-      <h3 data-i18n="contact_title">Contact</h3>
-      <p class="muted">
-        <strong>Email:</strong> <a href="mailto:parmeshwarkumar4044@gmail.com">parmeshwarkumar4044@gmail.com</a><br>
-        <strong>Phone:</strong> <a href="tel:+919153804044">+91 9153804044</a>
-      </p>
-      <form id="contact-form" class="contact-form" onsubmit="return false;" action="parmeswarkumar4044@gmail.com" method="post" enctype="text/plain">
-        <input type="text" id="name" placeholder="Your name" required>
-        <input type="email" id="email" placeholder="Your email" required>
-        <textarea id="message" placeholder="Message..." rows="4" required></textarea>
-        <div class="form-row">
-          <button class="btn primary" id="send-btn" type="submit">Send</button>
-          <button class="btn ghost" id="reset-btn" type="reset">Reset</button>
+    <section id="testimonials" class="section section-alt">
+      <div class="container">
+        <h2>Student Feedback</h2>
+        <div class="grid cards-3 testimonials">
+          <article class="card">
+            <p>“The Tally and office modules helped me secure my first accounting role.”</p>
+            <h4>— Riya Kumari</h4>
+          </article>
+          <article class="card">
+            <p>“The classes are practical and easy to understand. Faculty support is excellent.”</p>
+            <h4>— Aman Raj</h4>
+          </article>
+          <article class="card">
+            <p>“Best ADCA training in the area. I improved my confidence and communication skills.”</p>
+            <h4>— Sonu Kumar</h4>
+          </article>
         </div>
-        <p class="muted small">This form is front-end only — it will not send without backend. Copy email to contact directly.</p>
-      </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Who can join Quantum Computer Academy courses?</summary>
+          <p>Students, beginners, job seekers, and working professionals can join based on their learning goals.</p>
+        </details>
+        <details>
+          <summary>Do you provide practical classes?</summary>
+          <p>Yes. All major programs include regular lab practice and assignment-based learning.</p>
+        </details>
+        <details>
+          <summary>Is there guidance for job interviews?</summary>
+          <p>Yes. We provide basic resume guidance, communication improvement, and interview support.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section cta-strip">
+      <div class="container cta-wrap">
+        <div>
+          <h2>Admissions Open for New Session</h2>
+          <p>Reserve your seat today and start your learning journey with practical training.</p>
+        </div>
+        <a class="btn" href="#contact">Apply for Admission</a>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-layout">
+        <div>
+          <h2>Contact & Admissions</h2>
+          <p><strong>Address:</strong> Near Mahila Thana, Kashi Bazar, Chhapra</p>
+          <p><strong>Phone:</strong> <a href="tel:9798562821">9798562821</a>, <a href="tel:9955715199">9955715199</a></p>
+          <p><strong>Email:</strong> <a href="mailto:admission@quantumacademy.in">admission@quantumacademy.in</a></p>
+          <p><strong>Office Hours:</strong> Monday to Saturday, 8:00 AM to 7:00 PM</p>
+        </div>
+
+        <form id="enquiryForm" class="enquiry-form" novalidate>
+          <label>
+            Student Name
+            <input id="studentName" type="text" required placeholder="Enter full name" />
+          </label>
+          <label>
+            Mobile Number
+            <input id="studentPhone" type="tel" required placeholder="Enter 10-digit phone number" />
+          </label>
+          <label>
+            Select Program
+            <select id="studentProgram" required>
+              <option value="">Choose a program</option>
+              <option>ADCA</option>
+              <option>DCA</option>
+              <option>DTP</option>
+              <option>Tally / CFA</option>
+              <option>ADIT</option>
+              <option>Language & Communication</option>
+            </select>
+          </label>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+          <button id="submitBtn" type="submit" class="btn">Send Enquiry</button>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <a class="floating-call" href="tel:9798562821" aria-label="Call Quantum Computer Academy">Call Now</a>
+
+  <footer>
     <div class="container">
-      <small id="footer-text">© <span id="year"></span> Parmeshwar Kumar — All rights reserved</small>
+      <p>© <span id="year"></span> Quantum Computer Academy. All rights reserved.</p>
     </div>
   </footer>
 
